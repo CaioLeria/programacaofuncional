@@ -13,7 +13,6 @@ public class Exemplo01 {
           //      .map(valor -> valor +10)
             //    .forEach(System.out::println);
 
-
         //imprimir a soma dos elemetos do vetor
         int resultado = fluxo.reduce(0, (total, i ) -> total+i);
 
